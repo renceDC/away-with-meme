@@ -1,0 +1,142 @@
+/** External CSS **/
+@import url("https://fontlibrary.org/face/bebas");
+@import url("https://fonts.googleapis.com/css?family=Passion+One|Roboto|Lobster|Open+Sans|Montserrat");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+@media(min-width: 768px) {
+  div.container {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+}
+@media(min-width: 992px) {
+  div.container {
+      width: 100%;
+      margin: 0 auto;
+  }
+}
+@media(min-width: 1200px) {
+  div.container {
+      width: 1000px;
+      margin: 0 auto;
+  }
+}
+.cover {
+    background:transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cover li {
+	float: left;
+}
+
+.cover a {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    font-family: 'BebasNeueRegular';
+    font-size: 36px;
+    color: #FFF;
+    text-shadow: 1px 1px 0px #dca542;
+    transition: 0.5s;
+    line-height: 50px;
+}
+
+.cover a:hover {
+	color: #f1f1f1;
+}
+
+.cover .logo {
+    width: 320px;
+    height: 230px;
+    background: url(../img/logo.png) no-repeat transparent center;
+    background-size: 74% 92%;
+    margin-top: 40px;
+    border-radius: 18%;
+}
+
+.cover .centerLogo {
+	position: relative;
+}
+
+.cover .centerLogo2 {
+    position: absolute;
+    left: 36%;
+    right: 36%;
+    margin-top: -117px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+    height: 266px;
+    background: #FAEBD8;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+header img {
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.Columns {
+    margin: -10px;
+    margin-bottom: 10px;
+}
+
+.box-container {
+	background: #FAEBD8;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color:black;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+a {
+	color: #FFF;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: #f1f1f1;
+}
+
+
+.fa {
+  color: #FFF;
+}
